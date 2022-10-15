@@ -1,0 +1,12 @@
+1,@Entity:
+2,@Service:     It is also used at class level. It tells the Spring that class contains the business logic.
+3,@Repository: It is a class-level annotation. The repository is a DAOs (Data Access Object) that access the database directly. The repository does all the operations related to the database.
+4,@GetMapping: It maps the HTTP GET requests on the specific handler method.It is used to create a web service endpoint that fetches.
+5,@PostMapping: It maps the HTTP POST requests on the specific handler method.It is used to create a web service endpoint that creates.
+6,@PutMapping: It maps the HTTP PUT requests on the specific handler method. It is used to create a web service endpoint that creates or updates.
+7,@DeleteMapping: It maps the HTTP DELETE requests on the specific handler method. It is used to create a web service endpoint that deletes a resource.
+8,@ResponseBody: It binds the method return value to the response body. 
+9,@PathVariable: It is used to extract the values from the URI.
+10,@RequestBody: the Spring framework binds the incoming HTTP request body to that parameter.
+11,@RestController: It can be considered as a combination of @Controller and @ResponseBody annotations.
+12,@Autowired: Spring provides annotation-based auto-wiring by providing @Autowired annotation.

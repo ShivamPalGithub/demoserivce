@@ -1,0 +1,220 @@
+
+1.Maven Project
+A simple Note-Taking application using Maven Project.
+2.Requirements
+Java - 1.8.x
+Maven - 3.x.x
+3. Steps to Setup
+ 3.1 Clone the application
+git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+
+3.2 Build and run the app using maven 
+"public class CareTeamUtill", Calling this main method will convert the object into Jason format and again to object. 
+"public class CarePlanUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class ClinicallperssionUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class ConditionUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class ReskAssessmentUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class MediaUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class OrderUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class PractitonerUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class ScheduleUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class VaccinationsUtill",Calling this main method will convert the object into Jason format and again to object. 
+"public class FHIRUtil",Calling this main method will convert the object into Jason format and again to object. 
+"public class DemoMainReport"
+ClinicalNotesUtill,AdverseEventUtill,MedicationUtill,AllergyIntoleranceUtill. 
+Calling the main class of the 4 classes will convert the object to jason and jason to object map and merge it. 
+"public class DemoMainReport"
+DemographyUtill,MedicationUtill,Medical_ConditionUtill,ProcedureUtill,OrderUtill,ReferralRequestUtill,VaccinationsUtill,ResultsUtill,ProviderUtill,Appointment_visitsUtill 
+colling the main class of the 10 classes will convert the object to jason and merge it.
+4. All these classes are mentioned in all these topics.
+"public class Appointment_Visits", There are many variables,getter setter methods and toString method. 
+"public class AppointmentDate",There are many variables,getter setter methods and toString() method.
+"public class Appointment_VisitsUtill" ,class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public Appointment_Visits getAppointment_Visits(); This method content to class level Object  and fildData and return Appontmetn_vesits.
+
+
+"public class ClinicalNotes,There are many variables,getter setter methods and toString method. 
+"public class Category",There are many variables,getter setter methods and toString method. 
+"public class Content",There are many variables,getter setter methods and toString method. 
+ "public class Context",There are many variables,getter setter methods and toString method. 
+ "public class Entry",There are many variables,getter setter methods and toString method. 
+ "public class Resource",There are many variables,getter setter methods and toString method. 
+ "public class Type",There are many variables,getter setter methods and toString method. 
+"public class ClinicalNotesUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method.  
+public static ClinicalNotes getClinicalNotes() This methods content to class level Object and fildData return ClinicalNotes.
+
+"public class AdverseEvent",There are many variables,getter setter methods and toString method.  
+"public class Event",There are many variables,getter setter methods and toString method. 
+"public class AdverseEventUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public AdverseEvent getAdverseEvent() This methods content to class level Object and fildData return AdverseEvent.
+
+ "public class AllergyIntolerance",There are many variables,getter setter methods and toString method. 
+"public class Reaction",There are many variables,getter setter methods and toString method. 
+"public class AllergyIntoleranceUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public AlleryIntolerance getAllergyIntolerance() This methods content to class Level Object and fildData return AlleryIntolerance.
+
+ "public class CarePlan",There are many variables,getter setter methods and toString method. 
+"public class Contained",There are many variables,getter setter methods and toString method. 
+"public class Activity",There are many variables,getter setter methods and toString method. 
+"public class Detail",There are many variables,getter setter methods and toString method. 
+"public class CarePlanUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+ 1. public String convertObjectToJsonString() this method canvert to object to json String and return toString.
+2.public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+"public class CareTeam",There are many variables,getter setter methods and toString method. 
+"public class Contained",There are many variables,getter setter methods and toString method. 
+"public class Name",There are many variables,getter setter methods and toString method. 
+"public class Participant",There are many variables,getter setter methods and toString method. 
+"public class CareTeamUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to String.
+2. public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+"public class Clinicallperssion",There are many variables,getter setter methods and toString method. 
+"public class Investigation",There are many variables,getter setter methods and toString method. 
+"public class ClinicallperssionUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main methad in this class,main methad content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to string.
+2.public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+
+"public class Condition"There are many variables,getter setter methods and toString method. 
+"public class BodySite",There are many variables,getter setter methods and toString method. 
+"public class Code",There are many variables,getter setter methods and to string method. 
+"public class ConditionUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json string and return to string.
+2.public void convertJsonStringToJsonObject() this method canvert to json string to object.
+
+
+"public class Goal",There are many variables,getter setter methods and toString method. 
+"public class priority",There are many variables,getter setter methods and toString method. 
+"public class target",There are many variables,getter setter methods and toString method. 
+"public class GoalUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json string and return to String.
+2.public void convertJsonStringToJsonObject() this method canvert to json string to object.
+
+
+"public class ReskAssessment",There are many variables,getter setter methods and toString method. 
+"public class prediction",There are many variables,getter setter methods and toString method. 
+"public class ReskAssessmentUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to String.
+2. public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+
+"public class demography"There are many variables,getter setter methods and toString method. 
+"public class demographyUtill()",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+
+"public class Media",There are many variables,getter setter methods and toString method. 
+"public class MediaUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to String.
+2. public void convertJsonStringToJsonObject() this method canvert to json string to object.
+
+
+
+"public class Medical_Condition",There are many variables,getter setter methods and to string method. 
+"public class Medical_ConditionUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public Medical_Condition getmedical_Condition()This methods content to class level Object and fildData
+
+"public class Medication",There are many variables,getter setter methods and toString method. 
+"public class MedicationUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+Public Medication getMedication()This methods content to class level Object and fildData
+
+
+"public class Observation",There are many variables,getter setter methods and toString method. 
+"public class ObservationUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public Observation getObservation()This methods content to class level Object and fildData
+
+
+"public class Order",There are many variables,getter setter methods and toString method. 
+"public class CBC",There are many variables,getter setter methods and toString method. 
+"public class  When",There are many variables,getter setter methods and toString method. 
+"public class OrderUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to string.
+2. public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+"public class Practitoner",There are many variables,getter setter methods and toString method. 
+"public class Qualification",There are many variables,getter setter methods and toString method. 
+"public class PractitonerUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json String and return to String.
+2. public void convertJsonStringToJsonObject() this method canvert to json String to object.
+
+
+
+"public class Procedure",There are many variables,getter setter methods and toString method. 
+"public class ProcedureUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public Procedure getProcedure()This methods content to class level Object and fildData return procedure.
+
+"public class provider"There are many variables,getter setter methods and toString method. 
+public provider getProvider()This methods content to class level Object and fildData return provider.
+
+"public class ReferralRequest",There are many variables,getter setter methods and toString method. 
+"public class ReferralRequestUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public RefferralRequest getRefferralRequest()This methods content to class level Object and fildData return ReferralRequest.
+
+"public class Results"There are many variables,getter setter methods and toString method. 
+"public class ResultsUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+public Results getResults()This methods content to class level Object and fildData return Results.
+
+"public class Schedule",There are many variables,getter setter methods and toString method. 
+"public class ScheduleUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+This is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json string and return to string.
+2. public void convertJsonStringToJsonObject() this method canvert to json string to object.
+
+"public class Vaccinations",There are many variables,getter setter methods and toString method. 
+"public class Immunization",There are many variables,getter setter methods and toString method. 
+"public class Route,",There are many variables,getter setter methods and toString method. 
+"public class Site",There are many variables,getter setter methods and toString method. 
+"public class VaccineCode",There are many variables,getter setter methods and toString method. 
+"public class VaccinationsUtill",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+
+This is Main method in this class,main method content to class level object and filed
+ There are 3 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json string and return to String.
+2. public void convertJsonStringToJsonObject() this method canvert to json String to object.
+3.public Vaccination getVaccination() This methods content to class level Object and fildData return Vaccination .
+
+
+"public class PatientInputVo",There are many variables,getter setter methods and toString method. 
+ "public class PatientAllergyHistory",There are many variables,getter setter methods and toString method. 
+ "public class PatientMedicalHistory",There are many variables,getter setter methods and toString method. 
+ "public class PatientMedicationHistory",There are many variables,getter setter methods and toString method. 
+ "public class PatientResulVo",There are many variables,getter setter methods and toString method. 
+ "public class PatientSurgeryHistory",There are many variables,getter setter methods and toString method. 
+ "public class FHIRUtil",class creates the object and call the setter getter method. Data is been inserted by calling the setter getter method. 
+his is Main method in this class,main method content to class level object and filed
+ There are 2 methods is class
+1. public String convertObjectToJsonString() this methods canvert to object to json string and return to string.
+2. public void convertJsonStringToJsonObject() this method canvert to json string to object.
+
+
+ "public class Person"
+Person class is Generic class. A Generic class simply means that the items or functions in that class can be generalized with the parameter(example T) to specify that we can add any type as a parameter in place of T like Integer, Character, String, Double,Class or any other user-defined type.
+There are 2 methods in class:
+1. public String convertObjectToJsonString()
+Generic Method: Generic Java method takes a parameter and returns some value after performing a task. It is exactly like a normal function, however, a generic method has type parameters that are cited by actual type. This allows the generic method to be used in a more general way. This method convert the object to json string and return to string.
+2.public void personReport()
+getClinicalNotes,getAdverseEvent,getMedication,getAllergyIntolerance. The  "personReport()" method converts the added objects of the four methods to Map.  
+
+" public class Report", Generic class.
+" DemoMainReport",This is the Main class of all the classes.
+getDemography,getMedication,getMedical_Condition,getProcedure,getorder,getReferralRequest,getVaccinations,getResults,getProvider,Appointment_visitsUtill
+method converts the added objects to Map.
+
